@@ -1,0 +1,56 @@
+section {
+    max-width: 1080px;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.weather_box {
+    display: flex;
+}
+
+.weather_office {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info_box {
+    /* border: 1px solid black; */
+    padding: 30px;
+    /* background-color: white; */
+    /* opacity: 0.8; */
+}
+
+.box {
+    list-style: none;
+    width: 30%;
+    height: auto;
+    padding: auto;
+    margin: auto;
+    border: 1px solid black;
+    background-color: white;
+    opacity: 1;
+    z-index: 10;
+}
+
+.jr_map {
+    width: 100%;
+    margin: 50px auto;
+    /* border:1px solid black; */
+}
+
+.jr_map img {
+    width: 100%;
+}
